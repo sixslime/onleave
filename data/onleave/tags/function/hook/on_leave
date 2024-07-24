@@ -1,0 +1,18 @@
+> #onleave:hook > on_leave
+--------------------
+ ! when a player leaves the game.
+  @ tick
+--------------------
+ -> UUID: UUID
+ ~~{ pdata }~~
+ -> index: int
+--------------------
+ ...
+--------------------
+ - <UUID> is the UUID of the player that left.
+ 
+ - if 'pdata' is installed:
+    - <index> contains the pdata-index of the player that left.
+
+ - for general use.
+--------------------
