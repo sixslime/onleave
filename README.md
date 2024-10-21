@@ -26,4 +26,4 @@ Additional data is stored under the storage namespace `onleave:hook` upon tag ex
 tellraw @a ["","Player with UUID ",{"nbt":"on_leave[-1].info.UUID","storage":"onleave:hook"}," has left the game."]
 ```
 ### Meta Notes
-This is a temporary README! A more standard and thorough documentation is planned.
+This is a temporary README! A standardized and thorough documentation is planned.
