@@ -3,8 +3,7 @@
 ### Dependencies
 - [six](github.com/sixslime/six)
 - [onjoin](github.com/sixslime/onjoin)
-### Optionally Supports
-- [pdata](github.com/sixslime/onjoin)
+- [pdata](github.com/sixslime/onjoin) (optional)
 
 # Usage
 Add subscriber functions to the `#onjoin:hook/on_leave` function tag.
