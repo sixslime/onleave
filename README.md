@@ -6,14 +6,7 @@
 - [pdata](github.com/sixslime/onjoin) (optional)
 
 # Usage
-Add subscriber functions to the `#onjoin:hook/on_leave` function tag.
-```json
-{
-    "values": [
-        "<your function>"
-    ]
-}
-```
+Add subscriber functions to the `#onjoin:hook/on_leave` function tag. \
 This tag will run when any player leaves the game; on the same tick that they leave. \
 Additional data is stored under the storage namespace `onleave:hook` upon hook execution:
 - `on_leave[-1].info.UUID`: The UUID of the player that left.
