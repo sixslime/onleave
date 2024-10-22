@@ -1,6 +1,7 @@
 # On Leave | onleave
 > A hook that triggers when a player leaves the game.
 ### Dependencies
+- [load](https://github.com/sixslime/load)
 - [six](https://github.com/sixslime/six)
 - [onjoin](https://github.com/sixslime/onjoin)
 - [pdata](https://github.com/sixslime/pdata) (optional)
