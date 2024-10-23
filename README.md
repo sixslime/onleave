@@ -15,7 +15,7 @@ Additional data is stored under the storage namespace `onleave:hook` upon tag ex
 ## Example
 Send a message in chat when any player leaves the game:
 
-`/data/onleave/tags/function/hook/on_leave.json`:
+`<datapack>/data/onleave/tags/function/hook/on_leave.json`:
 ```json
 {
     "values": [
