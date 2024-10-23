@@ -13,8 +13,9 @@ Additional data is stored under the storage namespace `onleave:hook` upon tag ex
 - `on_leave[-1].info.UUID`: The UUID of the player that left.
 - `on_leave[-1].info.index`: The `pdata-index` score of the player that left. (only present if [pdata](github.com/sixslime/onjoin) is installed.)
 ## Example
-#### Send a message in chat when any player leaves the game:  
-*\<your datapack\>/data/onleave/tags/function/hook/on_leave.json*
+Send a message in chat when any player leaves the game:
+
+`/data/onleave/tags/function/hook/on_leave.json`:
 ```json
 {
     "values": [
@@ -22,7 +23,7 @@ Additional data is stored under the storage namespace `onleave:hook` upon tag ex
     ]
 }
 ```
-*\<your datapack\>/data/mypack/function/\_/my\_subscriber.mcfunction*
+`mypack:_/my_subscriber`:
 ```mcfunction
 tellraw @a ["","Player with UUID ",{"nbt":"on_leave[-1].info.UUID","storage":"onleave:hook"}," has left the game."]
 ```
@@ -30,5 +31,5 @@ tellraw @a ["","Player with UUID ",{"nbt":"on_leave[-1].info.UUID","storage":"on
 ___
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sixslime/sixslime.github.io/refs/heads/main/info/logos/temporary_documentation.svg" width="75%" alt="Temporary Documentation Tag"/>
+  <img src="https://sixslime.github.io/info/logos/temporary_documentation.svg" width="75%" alt="Temporary Documentation Tag"/>
 </p>
