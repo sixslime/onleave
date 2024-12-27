@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 55,
-		"description": "pack description. -SixSlime"
+		"pack_format": 61,
+		"description": "Single hook that triggers when a player leaves the game. (Library)"
 	}
 }

@@ -2,6 +2,7 @@
     "values": [
         "#six:load",
         "#onjoin:load",
+        {"id":"#pdata:load", "required":false},
         "#onleave:load"
     ]
 }
